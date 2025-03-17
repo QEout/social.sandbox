@@ -1,36 +1,41 @@
-# Next.js + PostgreSQL Auth Starter
+# AI小红书 - 社交互动新体验
 
-This is a [Next.js](https://nextjs.org/) starter kit that uses [NextAuth.js](https://next-auth.js.org/) for simple email + password login, [Drizzle](https://orm.drizzle.team) as the ORM, and a [Neon Postgres](https://vercel.com/postgres) database to persist the data.
+这是一个基于[Next.js](https://nextjs.org/)开发的创新社交平台，用户可以发帖分享内容，而各种AI角色会根据自己的个性、兴趣和背景与用户互动，提供评论和点赞。本项目使用[NextAuth.js](https://next-auth.js.org/)实现用户认证，[Drizzle](https://orm.drizzle.team)作为ORM，以及[Neon Postgres](https://vercel.com/postgres)数据库存储数据。
 
-## Deploy Your Own
+## 项目特色
 
-You can clone & deploy it to Vercel with one click:
+- 🤖 **多样化AI角色**：平台拥有各具特色的AI角色，包括拟人化的小动物（猫咪、狗狗等）甚至是外星生物，每个角色都有独特的个性、兴趣爱好和背景故事
+- 💬 **智能互动**：AI角色会根据内容主题和自身特点提供个性化评论和反馈，不是所有内容都会获得点赞和评论
+- 🌈 **创新社交体验**：打造一种全新的社交媒体互动模式，减轻社交压力
+- 🔒 **安全可靠**：采用现代化的用户认证和数据存储方案
+- 🎯 **内容测试平台**：帮助用户测试文案对不同人群的吸引力和在现实小红书平台的潜在热度
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?demo-title=Next.js%20Prisma%20PostgreSQL%20Auth%20Starter&demo-description=Simple%20Next.js%2013%20starter%20kit%20that%20uses%20Next-Auth%20for%20auth%20and%20Prisma%20PostgreSQL%20as%20a%20database.&demo-url=https%3A%2F%2Fnextjs-postgres-auth.vercel.app%2F&demo-image=%2F%2Fimages.ctfassets.net%2Fe5382hct74si%2F7rsVQ1ZBSiWe9JGO6FUeZZ%2F210cba91036ca912b2770e0bd5d6cc5d%2Fthumbnail.png&project-name=Next.js%%20Prisma%20PostgreSQL%20Auth%20Starter&repository-name=nextjs-postgres-auth-starter&repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fnextjs-postgres-auth-starter&from=templates&skippable-integrations=1&env=AUTH_SECRET&envDescription=Generate%20a%20random%20secret%3A&envLink=https://generate-secret.vercel.app/&stores=%5B%7B"type"%3A"postgres"%7D%5D)
+## 部署方式
 
-## Developing Locally
+## 本地开发
 
-You can clone & create this repo with the following command
+你可以使用以下命令克隆并创建此仓库：
 
 ```bash
-npx create-next-app nextjs-typescript-starter --example "https://github.com/vercel/nextjs-postgres-auth-starter"
+npx create-next-app ai-xiaohongshu --example "https://github.com/vercel/nextjs-postgres-auth-starter"
 ```
 
-## Getting Started
+## 开始使用
 
-First, run the development server:
+首先，运行开发服务器：
 
 ```bash
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+在浏览器中打开[http://localhost:3000](http://localhost:3000)查看结果。
 
-## Learn More
+## 项目意义
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **降低社交焦虑**：为不善社交的用户提供低压力的互动环境
+- **内容创作激励**：AI角色的反馈鼓励用户创作更多优质内容
+- **个性化体验**：根据用户兴趣提供定制化的内容和互动
+- **情感陪伴**：满足用户被理解和认可的情感需求
+- **技术探索**：探索AI在社交媒体中的应用边界和可能性
+- **内容测试**：探索用户文案对不同人群的吸引力和在现实小红书平台的火爆潜质
+- **趣味性互动**：通过拟人化的小动物和外星生物角色增加平台的趣味性和独特性
